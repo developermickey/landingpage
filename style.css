@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%; 
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+.cart {
+    width: 40px;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Gilroy;
+}
+
+nav ul li a:hover {
+    color: #ff77cd;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.content h1 {
+    font-family: Gilroy;
+    font-size: 72px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.content p {
+    font-size: 24px;
+    color: #6a7199;
+}
+.content {
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+.content .btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.icons {
+    margin-top: 40px;
+    display: flex;
+}
+.icons img {
+    width: 40px;
+    margin-right: 25px;
+}
+.girlImg {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 120px;
+
+}
+.social-link {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.social-link a {
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.social-link a:hover {
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+#page1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: salmon;
+}
+#page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+#page3 {
+    width: 100vw;
+    height: 100vh;
+    background-color: sandybrown;
+}
+#contact {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+    color: #fff;
+    font-family: Gilroy;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact h3 {
+    color: #fff;
+    font-family: Gilroy;
+    font-weight: 200;
+    font-size: 14px;
+}
